@@ -52,3 +52,7 @@ body {
   border-color: #e2e2e2;
   background-color: white;
 }
+
+.is-clear {
+	grid-column: span 3;
+}
