@@ -32,3 +32,23 @@ body {
 	grid-template: repeat(5, 1fr) / repeat(4, 1fr);
 	grid-gap: 15px;
 }
+
+.calc-button {
+	background: #e2e2e2;
+	border: 1px solid #d1d1d1;
+	padding: 20px;
+	color: #686868;
+	font-size: 22px;
+	cursor: pointer;
+	outline: none;
+}
+
+.calc-button:active {
+  transform: translateY(1px);
+}
+
+.calc-button:hover {
+  color: #686868;
+  border-color: #e2e2e2;
+  background-color: white;
+}
