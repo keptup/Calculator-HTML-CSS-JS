@@ -56,3 +56,14 @@ body {
 .is-clear {
 	grid-column: span 3;
 }
+
+.is-clear:hover {
+	color: #3572D8;
+	border-color: currentcolor;
+ 	background-color: #eff5ff;
+}
+
+.is-equals {
+	background: #28D060;
+	color: #eee;
+}
