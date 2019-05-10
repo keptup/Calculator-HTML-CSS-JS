@@ -67,3 +67,9 @@ body {
 	background: #28D060;
 	color: #eee;
 }
+
+.is-equals:hover {
+	color: #28D060;
+	border-color: currentcolor;
+ 	background-color: white;
+}
