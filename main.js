@@ -12,3 +12,5 @@ const nine = document.querySelector('.nine');
 const ten = document.querySelector('.ten');
 const plus = document.querySelector('.plus');
 const minus = document.querySelector('.minus');
+const times = document.querySelector('.times');
+const divide = document.querySelector('.divide');
