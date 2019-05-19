@@ -10,3 +10,5 @@ const seven = document.querySelector('.seven');
 const eight = document.querySelector('.eight');
 const nine = document.querySelector('.nine');
 const ten = document.querySelector('.ten');
+const plus = document.querySelector('.plus');
+const minus = document.querySelector('.minus');
