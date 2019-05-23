@@ -14,3 +14,4 @@ const plus = document.querySelector('.plus');
 const minus = document.querySelector('.minus');
 const times = document.querySelector('.times');
 const divide = document.querySelector('.divide');
+const clear = document.querySelector('.is-clear');
