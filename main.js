@@ -16,3 +16,4 @@ const times = document.querySelector('.times');
 const divide = document.querySelector('.divide');
 const clear = document.querySelector('.is-clear');
 const comma = document.querySelector('.comma');
+const equals = document.querySelector('.is-equals');
