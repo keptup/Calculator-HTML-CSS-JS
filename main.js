@@ -17,3 +17,7 @@ const divide = document.querySelector('.divide');
 const clear = document.querySelector('.is-clear');
 const comma = document.querySelector('.comma');
 const equals = document.querySelector('.is-equals');
+const dontRepeat = operator => {
+	const symbols = /[\/*\-+.]/;
+	input.value[input.value.length - 1].match(symbols) ? input.value += '' : input.value += operator;
+};
