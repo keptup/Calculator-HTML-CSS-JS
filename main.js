@@ -28,3 +28,6 @@ clear.addEventListener('click', () => {
 zero.addEventListener('click', () => {
 	input.value == 0 ? input.value = '' : input.value += zero.value;
 });
+one.addEventListener('click', () => {
+	input.value += one.value;
+});
