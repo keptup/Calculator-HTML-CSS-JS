@@ -25,3 +25,6 @@ const dontRepeat = operator => {
 clear.addEventListener('click', () => {
 	input.value = '';
 });
+zero.addEventListener('click', () => {
+	input.value == 0 ? input.value = '' : input.value += zero.value;
+});
