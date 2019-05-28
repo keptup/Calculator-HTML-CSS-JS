@@ -31,3 +31,6 @@ zero.addEventListener('click', () => {
 one.addEventListener('click', () => {
 	input.value += one.value;
 });
+two.addEventListener('click', () => {
+	input.value += two.value;
+});
