@@ -21,3 +21,7 @@ const dontRepeat = operator => {
 	const symbols = /[\/*\-+.]/;
 	input.value[input.value.length - 1].match(symbols) ? input.value += '' : input.value += operator;
 };
+
+clear.addEventListener('click', () => {
+	input.value = '';
+});
