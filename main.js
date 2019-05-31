@@ -55,3 +55,6 @@ eight.addEventListener('click', () => {
 nine.addEventListener('click', () => {
 	input.value += nine.value;
 });
+plus.addEventListener('click', () => {
+	dontRepeat('+');
+});
