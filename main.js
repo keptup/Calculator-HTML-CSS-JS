@@ -43,3 +43,6 @@ four.addEventListener('click', () => {
 five.addEventListener('click', () => {
 	input.value += five.value;
 });
+six.addEventListener('click', () => {
+	input.value += six.value;
+});
