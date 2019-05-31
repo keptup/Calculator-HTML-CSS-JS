@@ -49,3 +49,6 @@ six.addEventListener('click', () => {
 seven.addEventListener('click', () => {
 	input.value += seven.value;
 });
+eight.addEventListener('click', () => {
+	input.value += eight.value;
+});
