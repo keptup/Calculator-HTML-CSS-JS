@@ -58,3 +58,6 @@ nine.addEventListener('click', () => {
 plus.addEventListener('click', () => {
 	dontRepeat('+');
 });
+minus.addEventListener('click', () => {
+	dontRepeat('-');
+});
